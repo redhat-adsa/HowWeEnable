@@ -6,6 +6,15 @@ Enabling large organizations to adopt technologies is more than just purchasing 
 
 ## Objective
 
-Create a framework to enable people on this journey using discovery sessions that we will outline in this repository as well as provide enablement workshops to help move them forward on this journey.
+Create a framework to enable people on this journey using discovery sessions that we will outline in this repository as well as provide enablement workshops to help move them forward.
+
+## Enablement Workshops
+
+These workshops will consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem. 
+
+### Example: We would like to migrate a leagacy application to a container
+
+Workshop would consist of training on OpenShift, application refactoring, CI/CD and modern application development.
+
 
 [![Lint Code Base](https://github.com/redhat-energy-pod/and-how-we-enable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/redhat-energy-pod/and-how-we-enable/actions)
