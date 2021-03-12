@@ -17,4 +17,4 @@ These workshops will consist of 2 days of intensive training on a technology fol
 Workshop would consist of training on OpenShift, application refactoring, CI/CD and modern application development.
 
 
-[![Lint Code Base](https://github.com/redhat-energy-pod/and-how-we-enable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/redhat-energy-pod/and-how-we-enable/actions)
+[![Lint Code Base](https://github.com/chadhellyea/HowWeEnable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/chadhellyea/HowWeEnable/actions)
