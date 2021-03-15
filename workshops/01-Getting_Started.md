@@ -4,15 +4,6 @@
 
 The first thing we need to do before anything else is a full assesment of tools, developers, architectures, security and best practices. In order to do this we have created a checklist to simplify the process. As this is open source please feel free to put in a PR to add to this list.
 
-<style>
-table th:first-of-type {
-    width: 210px;
-}
-table th:nth-of-type(2) {
-    width: 500px;
-}
-</style>
-
 | <html><div style="width:210px">Architecture</div> | <div style="width:500px">Details</div> |
 |---------------------------------------------------|----------------------------------------|
 | :black_square_button: API Standards               |                                        |
