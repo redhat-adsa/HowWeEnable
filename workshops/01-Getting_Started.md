@@ -28,6 +28,7 @@ The first thing we need to do before anything else is a full assesment of tools,
 | <div style="width:210px">Languages</div> | <div style="width:500px">Details</div> |
 |------------------------------------------|----------------------------------------|
 | :black_square_button: API Security       |                                        |
+| :black_square_button: Artifactory        |                                        |
 | :black_square_button: Code Analysis      |                                        |
 | :black_square_button: Container Security |                                        |
 | :black_square_button: Secrets Managment  |                                        |
