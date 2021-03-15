@@ -4,7 +4,7 @@
 
 The first thing we need to do before anything else is a full assesment of tools, developers, architectures, security and best practices. In order to do this we have created a checklist to simplify the process. As this is open source please feel free to put in a PR to add to this list.
 
-| <html><div style="width:210px">Architecture</div> | <div style="width:500px">Details</div> |
+|` Architecture `|`                            Details                                      `|
 |---------------------------------------------------|----------------------------------------|
 | :black_square_button: API Standards               |                                        |
 | :black_square_button: Coding Standards            |                                        |
