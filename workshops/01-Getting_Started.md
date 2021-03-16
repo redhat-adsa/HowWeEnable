@@ -9,6 +9,7 @@ The first thing we need to do before anything else is a full assesment of tools,
 | :black_square_button: API Standards               |                                        |
 | :black_square_button: Coding Standards            |                                        |
 | :black_square_button: CI/CD Standards             |                                        |
+| :black_square_button: Data Standards              |                                        |
 | :black_square_button: Developer Experience        |                                        |
 | :black_square_button: Hybrid Cloud                |                                        |
 | :black_square_button: Source Code Management      |                                        |
