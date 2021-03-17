@@ -4,32 +4,32 @@
 
 The first thing we need to do before anything else is a full assesment of tools, developers, architectures, security and best practices. In order to do this we have created a checklist to simplify the process. As this is open source please feel free to put in a PR to add to this list.
 
-| <div style="width:210px">Architecture</div>  | <div style="width:500px">Details</div> |
-|----------------------------------------------|----------------------------------------|
-| :black_square_button: API Standards          |                                        |
-| :black_square_button: Coding Standards       |                                        |
-| :black_square_button: CI/CD Standards        |                                        |
-| :black_square_button: Data Standards         |                                        |
-| :black_square_button: Developer Experience   |                                        |
-| :black_square_button: Hybrid Cloud           |                                        |
-| :black_square_button: Source Code Management |                                        |
+| Architecture                                 | Details (get specifics and link to possible workshop ideas) |
+|----------------------------------------------|-------------------------------------------------------------|
+| :black_square_button: API Standards          |                                                             |
+| :black_square_button: Coding Standards       |                                                             |
+| :black_square_button: CI/CD Standards        |                                                             |
+| :black_square_button: Data Standards         |                                                             |
+| :black_square_button: Developer Experience   |                                                             |
+| :black_square_button: Hybrid Cloud           |                                                             |
+| :black_square_button: Source Code Management |                                                             |
 
-| <div style="width:210px">Languages</div> | <div style="width:500px">Details</div> |
-|------------------------------------------|----------------------------------------|
-| :black_square_button: Golang             |                                        |
-| :black_square_button: Java               |                                        |
-| :black_square_button: Julia              |                                        |
-| :black_square_button: .NET               |                                        |
-| :black_square_button: Perl               |                                        |
-| :black_square_button: PHP                |                                        |
-| :black_square_button: Perl               |                                        |
-| :black_square_button: Python             |                                        |
-| :black_square_button: R                  |                                        |
+| Languages and Frameworks     | Details (get specifics and link to possible workshop ideas) |
+|------------------------------|-------------------------------------------------------------|
+| :black_square_button: Golang |                                                             |
+| :black_square_button: Java   |                                                             |
+| :black_square_button: Julia  |                                                             |
+| :black_square_button: .NET   |                                                             |
+| :black_square_button: Perl   |                                                             |
+| :black_square_button: PHP    |                                                             |
+| :black_square_button: Perl   |                                                             |
+| :black_square_button: Python |                                                             |
+| :black_square_button: R      |                                                             |
 
-| <div style="width:210px">Security</div>  | <div style="width:500px">Details</div> |
-|------------------------------------------|----------------------------------------|
-| :black_square_button: API Security       |                                        |
-| :black_square_button: Artifactory        |                                        |
-| :black_square_button: Code Analysis      |                                        |
-| :black_square_button: Container Security |                                        |
-| :black_square_button: Secrets Managment  |                                        |
+| Security                                 | Details (get specifics and link to possible workshop ideas) |
+|------------------------------------------|-------------------------------------------------------------|
+| :black_square_button: API Security       |                                                             |
+| :black_square_button: Artifactory        |                                                             |
+| :black_square_button: Code Analysis      |                                                             |
+| :black_square_button: Container Security |                                                             |
+| :black_square_button: Secrets Managment  |                                                             |
