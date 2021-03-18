@@ -12,9 +12,11 @@ Create a framework to enable people on this journey using discovery sessions tha
 
 These workshops will consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
 
-[Getting Started Assesment](workshops/01-Getting_Started.md)
+[Getting Started Assesment](workshops/01-Getting_Started.md) This is a checklist to get an overview of where an organization is in their digital transformation journey, and help us to decide where we should start.
 
-[Logistics](workshops/02-Logistics.md)
+[Logistics](workshops/02-Logistics.md) What is needed to perfrom one of these workshops.
+
+[Strategy Enablement](workshops/03-Strategy.md) Helpng enable long term strategy vs quick wins is extremely beneficial to success in a digital transformation. here we help align to standard strategies around SCM, CI/CD, APIs, Auth etc...
 
 ### Example: We would like to migrate a leagacy application to a container
 
