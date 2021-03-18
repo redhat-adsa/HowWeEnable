@@ -10,7 +10,7 @@ Create a framework to enable people on this journey using discovery sessions tha
 
 ## Enablement Workshops
 
-These workshops will consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem. 
+These workshops will consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
 
 `Note:` This can be broken down into smaller sessions as it is sometimes difficult to get an entire week. The main goal is to have people apply the new skills they learned as soon as possible to something they are currently working on.
 
