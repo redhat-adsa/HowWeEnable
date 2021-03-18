@@ -13,6 +13,7 @@ Create a framework to enable people on this journey using discovery sessions tha
 These workshops will consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
 
 [Getting Started Assesment](workshops/01-Getting_Started.md)
+
 [Logistics](workshops/02-Logistics.md)
 
 ### Example: We would like to migrate a leagacy application to a container
