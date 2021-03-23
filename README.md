@@ -32,5 +32,4 @@ These workshops (preferably) consist of 2 days of intensive training on a techno
 | Refactor apps                  | Refactor 101      |
 | Commercial of the shelf on OCP | Cots on OCP       |
 
-
 [![Lint Code Base](https://github.com/chadhellyea/HowWeEnable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/chadhellyea/HowWeEnable/actions)
