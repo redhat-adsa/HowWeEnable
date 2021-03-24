@@ -1,4 +1,4 @@
-# `WIP` Practice Scenarios
+# Practice Scenarios
 
 ## Objective
 
@@ -6,8 +6,16 @@ This section is intended to help new facilitators work through some scenarios th
 
 ### Scenario 1 SCM
 
-Do you have a strategy for Source Code Management?
+Q: Do you have a strategy for Source Code Management?
 
-No, some people use different forms of SCM, however there is no standard methodology.
+A: No, some people use different forms of SCM, however there is no standard methodology.
 
-Let's work through setting up a strategy using git since it is the industry standard.
+Collaborate: Let's work through setting up a strategy using git since it is the industry standard.
+
+### Scenario 2 CI/CD
+
+Q: Do you have a standard CI/CD pipeline that all of your teams use?
+
+A: No
+
+Collaborate: Have a workshop to help enable strategy on CI/CD depending on type of work we need to do.
