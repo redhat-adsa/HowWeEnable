@@ -30,3 +30,7 @@ Before the event it is best to get people to submit ideas for things they would 
 
 Example:
 Customer has a ASP.net application that uses tls and kerberos authentication. We would need to make sure they have the ability to request dns changes, certs from a PKI and set up auth or a kerberos sidecar.
+
+---
+
+[Next Strategy](03-Strategy.md)
