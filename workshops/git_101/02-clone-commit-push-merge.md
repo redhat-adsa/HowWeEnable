@@ -20,6 +20,7 @@ Cloning is making a local copy of code in a local copy of the remote repository.
 
 For this exercise fork this repository using the github instructions above then clone it (depending on if you created a PAT(public access token) or a SSH key follow the correct instruction below:
 
+`Note:`
 ### SSH Clone
 
 ```shell
@@ -32,7 +33,7 @@ git clone git@github.com:yourgithubname/HowWeEnable.git
 git clone https://<pat>@github.com/yourgithubusername/HowWeEnable.git
 ```
 
-`NOTE:` Replace `<pat>` with the toekn you ceated in the earlier excercise.
+`NOTE:` Replace `<pat>` with the token you created in the earlier exercise.
 
 Output:
 
@@ -56,3 +57,7 @@ tree
         ├── 03-Strategy.md
         └── 04-Practice_Scenarios.md
 ```
+
+## Commit Code
+
+In the new 

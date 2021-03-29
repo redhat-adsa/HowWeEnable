@@ -26,7 +26,7 @@ These workshops (preferably) consist of 2 days of intensive training on a techno
 | Need                           | Workshop          |
 |--------------------------------|-------------------|
 | High level strategies missing  | Strategy Workshop |
-| Source Code Mangement          | Git 101           |
+| Source Code Management         | Git 101           |
 | Authentication                 | Auth 101          |
 | Automation                     | Ansible 101       |
 | Refactor apps                  | Refactor 101      |

@@ -4,6 +4,12 @@
 
 The first thing we need to do before anything else is a full assessment of tools, developers, architectures, security and best practices. In order to do this we have created a checklist to simplify the process. As this is open source please feel free to put in a PR to add to this list.
 
+| Minimum Viable Skills | Details (what is the skill maturity 1/5) |
+|-----------------------|------------------------------------------|
+| Automation            |                                          |
+| Scripting             |                                          |
+|                       |                                          |
+
 | Architecture           | Details (get specifics and link to possible workshop ideas) |
 |------------------------|-------------------------------------------------------------|
 | API Standards          |                                                             |
