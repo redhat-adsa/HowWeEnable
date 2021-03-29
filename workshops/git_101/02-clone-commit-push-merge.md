@@ -58,13 +58,15 @@ tree
         ├── 03-Strategy.md
         └── 04-Practice_Scenarios.md
 ```
+
 ## Branching
 
 It is a best practice to not commit code directly to the main (legacy master) branch. In order to void this we create a feature branch to work from with the `git branch` or `git checkout` command.
 
-To create a branch and check it out (ie move to it as your working branch) you can do this with a single command `git checkout -b <branch-name>.
+To create a branch and check it out (ie move to it as your working branch) you can do this with a single command `git checkout -b <branch-name>`.
 
 ```shell
+cd HowWeEnable
 git checkout -b test
 ```
 
@@ -74,9 +76,11 @@ Output:
 Switched to a new branch 'test'
 ```
 
-## Commit Code
+Now any changes you make are in a separate branch from main called test.
 
-1. In the HowWeEnable directory create a new file and look at the status of it in git
+## Commiting Code
+
+1. In the HowWeEnable directory create a new file and look at the status of it in git.
 
     ```shell
     touch mynewfile.txt
@@ -142,3 +146,16 @@ To github.com:redhat-adsa/HowWeEnable.git
    c0db901..6eaaf6d  test -> test
 ```
 
+## Merging Code
+
+If you are the owner and want to merge a feature branch into main you can do so via `git merge <branchname>` from the main branch, however this is not a best practice. Best practice is to perform a pull request (sometimes called merge request) from the central server and have someone review the changes before they are merged into main. Below are links to each major repository servers instructions to perform a pull request:
+
+[Azure Devops](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops)
+
+[Bitbucket](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+
+[Github](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+[Gitlab](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+
+Please create a pull request following above documentation to your repository you created above from the `test` branch into the `main` branch of your fork.
