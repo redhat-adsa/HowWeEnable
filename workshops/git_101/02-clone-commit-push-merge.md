@@ -58,6 +58,21 @@ tree
         ├── 03-Strategy.md
         └── 04-Practice_Scenarios.md
 ```
+## Branching
+
+It is a best practice to not commit code directly to the main (legacy master) branch. In order to void this we create a feature branch to work from with the `git branch` or `git checkout` command.
+
+To create a branch and check it out (ie move to it as your working branch) you can do this with a single command `git checkout -b <branch-name>.
+
+```shell
+git checkout -b test
+```
+
+Output:
+
+```shell
+Switched to a new branch 'test'
+```
 
 ## Commit Code
 
@@ -107,10 +122,10 @@ tree
 
 ## Pushing Commit to Repository Server
 
-Just like it sounds, `git push` pushes the commits to the central repository. A best practice is to specify the repo you are pushing to usually origin and the branch for this example we will use main, however most upstream repositories will not allow pushing directly to main.
+Just like it sounds, `git push` pushes the commits to the central repository. A best practice is to specify the repo you are pushing to (usually origin) and the branch for this example we will use test. `Note:` Generally upstream repositories will not allow pushing directly to main, so you will always need to either fork the repository, or create a branch.
 
 ```shell
-git push origin main
+git push origin test
 ```
 
 Output:
@@ -124,5 +139,6 @@ Writing objects: 100% (1/1), 1018 bytes | 339.00 KiB/s, done.
 Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
 To github.com:redhat-adsa/HowWeEnable.git
-   c0db901..6eaaf6d  main -> main
+   c0db901..6eaaf6d  test -> test
 ```
+
