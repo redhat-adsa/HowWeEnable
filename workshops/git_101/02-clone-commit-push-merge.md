@@ -119,7 +119,7 @@ Now any changes you make are in a separate branch from main called test.
     Output:
 
     ```shell
-    [main 60cdc2b] adding newfile.txt
+    [main 60cdc2b] adding mynewfile.txt
      1 file changed, 0 insertions(+), 0 deletions(-)
     create mode 100644 mynewfile.txt
     ```
