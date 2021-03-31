@@ -71,7 +71,7 @@ Most repositories are disabling username and password as an auth mechanism for s
 1. Generate an 4096 bit rsa key with a comment to make sure you know what it is for later.
 
     ```shell
-    ssh-keygen -t rsa -b 4096 -c "sshkeyforgit"
+    ssh-keygen -t rsa -b 4096 -C "sshkeyforgit"
     cat ~/.ssh/id_rsa.pub
     ```
 
