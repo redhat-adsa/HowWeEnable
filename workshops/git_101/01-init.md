@@ -34,7 +34,7 @@ The git config command is used to get and set repository or global level options
 
 ```shell
 git config --global user.name "username"
-git config --global user.email "emailaddress
+git config --global user.email "john.doe@example.com"
 ```
 
 ### Set main as global default
