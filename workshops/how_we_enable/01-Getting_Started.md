@@ -4,7 +4,18 @@
 
 The first thing we need to do before anything else is a full assessment of tools, developers, architectures, security and best practices. In order to do this we have created a checklist to simplify the process. As this is open source please feel free to put in a PR to add to this list.
 
-| Architecture           | Details (get specifics and link to possible workshop ideas) |
+| Minimum Viable Skills    | Details (Rate Organization's skill maturity on a scale of 1-5) |
+|--------------------------|----------------------------------------------------------------|
+| Automation               |                                                                |
+| Cloud Native Development |                                                                |
+| Collaboration            |                                                                |
+| Kubernetes               |                                                                |
+| Network Awareness        |                                                                |
+| Scripting                |                                                                |
+| Security                 |                                                                |
+| Testing                  |                                                                |
+
+| Architecture           | Details (Get specifics and link to possible workshop ideas) |
 |------------------------|-------------------------------------------------------------|
 | API Standards          |                                                             |
 | Coding Standards       |                                                             |
@@ -14,7 +25,7 @@ The first thing we need to do before anything else is a full assessment of tools
 | Hybrid Cloud           |                                                             |
 | Source Code Management |                                                             |
 
-| Languages and Frameworks | Details (get specifics and link to possible workshop ideas) |
+| Languages and Frameworks | Details (Get specifics and link to possible workshop ideas) |
 |--------------------------|-------------------------------------------------------------|
 | Angular                  |                                                             |
 | Golang                   |                                                             |
@@ -30,10 +41,14 @@ The first thing we need to do before anything else is a full assessment of tools
 | React                    |                                                             |
 | Spring                   |                                                             |
 
-| Security           | Details (get specifics and link to possible workshop ideas) |
+| Security           | Details (Get specifics and link to possible workshop ideas) |
 |--------------------|-------------------------------------------------------------|
 | API Security       |                                                             |
 | Artifactory        |                                                             |
 | Code Analysis      |                                                             |
 | Container Security |                                                             |
 | Secrets Management |                                                             |
+
+---
+
+[Next Logistics](02-Logistics.md)
