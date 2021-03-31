@@ -106,7 +106,7 @@ Now any changes you make are in a separate branch from main called test.
     ```shell
     Changes to be committed:
     (use "git restore --staged <file>..." to unstage)
-            new file:   _config.yml
+            new file:   mynewfile.txt
     ```
 
 3. Finally lets commit the code:
