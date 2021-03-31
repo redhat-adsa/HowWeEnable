@@ -33,7 +33,7 @@ git init --initial-branch=main
 The git config command is used to get and set repository or global level options. Let's set some options for the repository you just created so that when you do a push it knows who made the changes. `NOTE:` If this is a shared machine (vscodeserver etc) remove the `--global` and it will only add this to the local repository.
 
 ```shell
-git config --global user.name "username"
+git config --global user.name "john doe"
 git config --global user.email "john.doe@example.com"
 ```
 
