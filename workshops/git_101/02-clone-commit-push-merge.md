@@ -159,3 +159,7 @@ If you are the owner and want to merge a feature branch into `main` you can do s
 [Gitlab](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
 
 Please create a pull request following above documentation to your repository you created above from the `test` branch into the `main` branch of your fork.
+
+---
+
+[Next](workshops/git101/03-advanced-git.md)
