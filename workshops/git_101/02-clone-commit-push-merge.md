@@ -113,7 +113,7 @@ Now any changes you make are in a separate branch from main called test.
 3. Finally lets commit the code:
 
     ```shell
-    git commit -m 'adding newfile.txt'
+    git commit -m 'adding mynewfile.txt'
     ```
 
     Output:
