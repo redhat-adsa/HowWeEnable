@@ -66,7 +66,6 @@ It is a best practice to not commit code directly to the main (legacy master) br
 To create a branch and check it out (ie move to it as your working branch) you can do this with a single command `git checkout -b <branch-name>`.
 
 ```shell
-cd HowWeEnable
 git checkout -b test
 ```
 
