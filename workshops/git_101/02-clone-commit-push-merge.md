@@ -142,7 +142,7 @@ Compressing objects: 100% (1/1), done.
 Writing objects: 100% (1/1), 1018 bytes | 339.00 KiB/s, done.
 Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
-To github.com:redhat-adsa/HowWeEnable.git
+To github.com:yourusername/HowWeEnable.git
    c0db901..6eaaf6d  test -> test
 ```
 
