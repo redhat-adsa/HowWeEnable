@@ -20,7 +20,7 @@ For other operating systems, follow latest documentation on [git-scm.com](https:
 
 ## Create your first project
 
-To create your first local project you will need to create a directory and run the init command with the name of the default branch as main otherwise it will default to master.
+To create your first local project you will need to create a directory and run the init command with the name of the default branch as `main` otherwise it will default to `master`.
 
 ```shell
 mkdir project-name
