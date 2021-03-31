@@ -18,7 +18,7 @@ Here are links to the most common git systems and how to clone from them:
 
 Cloning is making a local copy of code in a local copy of the remote repository. Most of the time you will be cloning someone elses repository so you can use it or make a change and then push in for a request to have it merged into the upstream codebase. Remember unless you have access to the upstream repository you will need to either request access or fork the code to push into it.
 
-For this exercise fork this repository using the github instructions above then clone it (depending on if you created a PAT(public access token) or a SSH key follow the correct instruction below:
+For this exercise fork this repository using the github instructions above then clone it (depending on if you created a PAT (public access token) or a SSH key follow the correct instruction below:
 
 `Note:` You can import into [Gitlab](https://docs.gitlab.com/ee/user/project/import/github.html), [ADO](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-git-repository?view=azure-devops), [Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/import-a-repository-from-github-or-gitlab/) or git server of choice using their import feature if you do not have access to github (click link or tool for details).
 
