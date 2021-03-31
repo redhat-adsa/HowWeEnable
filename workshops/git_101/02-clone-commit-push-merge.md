@@ -94,7 +94,7 @@ Now any changes you make are in a separate branch from main called test.
         mynewfile.txt
     ```
 
-2. Now let's git add so the file is tracked by git going forward, and git commit so the new file is ready to be pushed to the remote repository.
+2. Now let's add the file so it is tracked by git going forward `git add <filename>`, and commit it so that the new file is ready to be pushed to the remote repository `git commit -m 'meaningful commit message'`.
 
     ```shell
     git add mynewfile.txt
