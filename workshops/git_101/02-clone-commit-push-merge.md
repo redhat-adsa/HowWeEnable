@@ -126,7 +126,7 @@ Now any changes you make are in a separate branch from main called test.
 
 ## Pushing Commit to Repository Server
 
-Just like it sounds, `git push` pushes the commits to the central repository. A best practice is to specify the repo you are pushing to (usually origin) and the branch for this example we will use test. `Note:` Generally upstream repositories will not allow pushing directly to main, so you will always need to either fork the repository, or create a branch.
+Just like it sounds, `git push` pushes the commits to the central repository. A best practice is to specify the remote you are pushing to (usually origin) and the branch for this example we will use test. `Note:` Generally upstream repositories will not allow pushing directly to main, so you will always need to either fork the repository, or create a branch.
 
 ```shell
 git push origin test
