@@ -136,13 +136,15 @@ If you are working on a branch and you want to reset it to the last commit you c
 
 5. Now you can perform a `git pull` to get latest upstream changes.
 
-## Git Diff 
+## Git Diff
 
 Git diff is a way to see what is different between two branches. You can do this on just two files, or the entire branch.
 
-1. Let's create a file called test_diff.txt:
+1. Let's create a file called test_diff.txt, commit it and make a change so we can see the differences:
 
    ```shell
+   echo "this is a git diff test example" > test_diff.txt
+   git commit -am 'commiting test_diff';git push
    echo "test diff example" > test_diff.txt
    ```
 
@@ -160,31 +162,67 @@ Git diff is a way to see what is different between two branches. You can do this
    +++ b/test_diff.txt
    @@ -1 +1 @@
    -this is a git diff test example
-   +this is a diff example
+   +test diff example
    ```
 
 ### What does each part of the `git diff` mean?
-   
-1. ```diff --git a/test_diff.txt b/test_diff.txt``` 
-   
+
+1. ```diff --git a/test_diff.txt b/test_diff.txt```
+
    This line shows the files git found differences in.
-   
+
 2. ```shell
    --- a/test_diff.txt
    +++ b/test_diff.txt
    ```
-   These lines assign let you know which marker denotes which file ie - is for file a and + is for file b.
 
-3. ```shell
+   These lines assign let you know which marker denotes which file ie `-` is for `file a` and `+` is for `file b`.
+
+   Example:
+
+   ```shell
    @@ -1 +1 @@
    -this is a git diff test example
    +test diff example
    ```
 
-     
 ## Git Stash
 
-Atlasian has a great tutorials on [diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff) and [stash.](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) Please go through each of these as they are great walk throughs.
+`Git stash` saves uncommitted changes for later and reverts to last commit so you can switch branches and work on other things.
+
+1. ```git status```
+
+   Output:
+
+   ```shell
+   On branch git102
+   Your branch is up to date with 'origin/git102'.
+
+   Changes not staged for commit:
+     (use "git add <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+          modified:   workshops/git_101/03-advanced.md
+   ```
+
+2. In order to restore your session `git stash apply`
+
+   ```shell
+   git stash apply
+   ```
+
+   Output:
+
+   ```shell
+   On branch git102
+   Your branch is up to date with 'origin/git102'.
+
+   Changes not staged for commit:
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   workshops/git_101/03-advanced.md
+   ```
+
+   `Note:` Stash will not store files that have not been added with `git add`.
 
 ## Branching Strategies
 
