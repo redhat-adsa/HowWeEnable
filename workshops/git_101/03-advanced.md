@@ -30,46 +30,15 @@ The process to review code is nearly the same with all git services, since we ar
 
    ![sugestion block](images/suggestion-block.png)
 
-## Git pull
-
-If you are collaborating on code you will need to make sure you have the latest version of the code in your local repository to avoid conflicts. this is done via `git pull`. Below is an example of what was just done before starting work on this part of the exercise. Since we had pushed code in, and merged it to main the local copy was different than the remote copy for the main branch.
-
-```shell
-git checkout main
-```
-
-Output (git is nice enough to recommend hot to fix the issue):
-
-```shell
-Switched to branch 'main'
-Your branch is behind 'origin/main' by 23 commits, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-```
-
-Since the code is different we need to execute `git pull` to pull the remote changes to our local system.
-
-```shell
-git pull
-```
-
-Output:
-
-```shell
-Updating 99f77f0..1908194
-Fast-forward
- README.md                                       |  28 ++++++++--------
- _config.yml                                     |   3 ++
- workshops/git_101/01-init.md                    | 102 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- workshops/git_101/02-clone-commit-push-merge.md | 164 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- workshops/how_we_enable/01-Getting_Started.md   |  21 ++++++++++--
- workshops/how_we_enable/02-Logistics.md         |   4 +++
- 6 files changed, 305 insertions(+), 17 deletions(-)
- create mode 100644 _config.yml
- create mode 100644 workshops/git_101/01-init.md
- create mode 100644 workshops/git_101/02-clone-commit-push-merge.md
- ```
-
 ## Rebase
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most used to fix a bug in the main branch and makes sure you have clean history of changes and can be visualized as the following:
+
+![image](images/rebase.svg)
+
+`Note:` You should not rebase in public repositories as it will look like some of the history disappear.
+
+The most common use of rebase is if you have gotten behind the main branch. Before trying to commit for a PR make sure to `git rebase main --interactive`
 
 ## Git Log
 

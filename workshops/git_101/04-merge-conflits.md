@@ -99,4 +99,4 @@ Merge conflicts happen when you or someone else edits the same file and tries to
 
     ![mergeconflict](images/mergeconflict.png)
 
-    Otherwise you will need to go into the file and manually fix the conflict then do a new commit.
+    Otherwise you will need to go into the file and manually fix the conflict then do a new commit. Or you can always `git rebase main --interctive`
