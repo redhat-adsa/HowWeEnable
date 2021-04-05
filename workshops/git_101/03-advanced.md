@@ -1,8 +1,8 @@
-# Advanced Git 
+# Advanced Git
 
-# Pull Request Reviews
+## Pull Request Reviews
 
-It is a best practice to have at least one other person review all pull requests when code is pushed into a repository. This ensures that we are following [Linus's Law](https://en.wikipedia.org/wiki/Linus%27s_law) which states "given enough eyeballs, all bugs are shallow". 
+It is a best practice to have at least one other person review all pull requests when code is pushed into a repository. This ensures that we are following [Linus's Law](https://en.wikipedia.org/wiki/Linus%27s_law) which states "given enough eyeballs, all bugs are shallow".
 
 The process to review code is nearly the same with all git services, since we are using github for this training we will show how to do it here.
 
@@ -13,7 +13,7 @@ The process to review code is nearly the same with all git services, since we ar
    ![addimage](images/select_pr.png)
 
 2. Click `Files Changed` in the center (1 in example below), and then `AFTER` you have reviewed all of the files click `Review Changes` on the right (2 in example below).
-   
+
    Example:
 
    ![addimage](images/review_changes.png)
@@ -29,7 +29,6 @@ The process to review code is nearly the same with all git services, since we ar
    Example:
 
    ![sugestion block](images/suggestion-block.png)
-
 
 ## Git pull
 
@@ -70,19 +69,20 @@ Fast-forward
  create mode 100644 workshops/git_101/02-clone-commit-push-merge.md
  ```
 
-
-## Merge Conflicts
-
 ## Rebase
 
 ## Git Diff and Stash
+
 Git diff is a way to see what is different between two branches.
 
 Atlasian has a great tutorials on [diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff) and [stash.](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) Please go through each of these as they are great walk throughs.
-
 
 ## Branching Strategies
 
 There are many different strategies for branching code, however the feature branch strategy has become the standard in Open Source this is also referred to as [Github Flow](https://guides.github.com/introduction/flow/).
 
 For in depth information on all strategies Martin Fowler has a great blog on it [here.](https://martinfowler.com/articles/branching-patterns.html)
+
+---
+
+[Merge Conflicts](04-merge-conflicts.md)
