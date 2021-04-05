@@ -161,4 +161,4 @@ Please create a pull request following above documentation to your repository yo
 
 ---
 
-[Next](workshops/git101/03-advanced-git.md)
+[Next](03-advanced-git.md)
