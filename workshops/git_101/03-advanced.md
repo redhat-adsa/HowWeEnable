@@ -18,7 +18,7 @@ The process to review code is nearly the same with all git services, since we ar
 
    ![addimage](images/review_changes.png)
 
-3. If there is something you would like to change you can add a comment for changes to the person making the pull request by clicking the plus next to the code you want to change.
+3. If there is something you would like to change, you can add a comment for changes to the individual who submitted the pull request by clicking the plus next to the code you want to change.
 
    Example:
 
