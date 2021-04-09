@@ -32,7 +32,7 @@ The process to review code is nearly the same with all git services, since we ar
 
 ## Rebase
 
-Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most used to fix a bug in the main branch and makes sure you have clean history of changes and can be visualized as the following:
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most used to fix a bug in the main branch and makes sure you have a clean history of changes which can be visualized as the following:
 
 ![image](images/rebase.svg)
 
