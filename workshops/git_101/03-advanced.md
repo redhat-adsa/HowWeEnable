@@ -12,7 +12,7 @@ The process to review code is nearly the same with all git services, since we ar
 
    ![addimage](images/select_pr.png)
 
-2. Click `Files Changed` in the center (1 in example below), and then `AFTER` you have reviewed all of the files click `Review Changes` on the right (2 in example below).
+2. Click **Files Changed** in the center (1 in example below), and then **AFTER** you have reviewed all of the files, click **Review Changes** on the right (2 in example below).
 
    Example:
 
