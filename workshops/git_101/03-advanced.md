@@ -24,7 +24,7 @@ The process to review code is nearly the same with all git services, since we ar
 
    ![hovercomment](images/hover-comment-icon.gif)
 
-4. Even better than just commenting you can also suggest a change so they can just click yes and it will make the change for them by highlighting the code you want to change and clicking the insert suggestion button.
+4. Even better than just commenting, you can also suggest a change so they can easily review the proposed change as it will highlight the code with the desired change by clicking the insert suggestion button.
 
    Example:
 
