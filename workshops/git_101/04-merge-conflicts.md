@@ -6,7 +6,7 @@ _Note:_ `Main` could be called `master` if it is an older repository.
 
 ## Create and Fix a Merge Conflict
 
-1. For this exercise create a new directory called merge-test in your home directory.
+1. For this exercise, create a new directory called `merge-test` in your home directory.
 
     ```shell
     cd ~
