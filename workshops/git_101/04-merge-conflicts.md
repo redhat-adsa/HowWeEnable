@@ -81,7 +81,7 @@ Merge conflicts happen when you or someone else edits the same file and tries to
     no changes added to commit (use "git add" and/or "git commit -a")
     ```
 
-9. Lets take a look inside merge.txt to see wht the conflict is:
+9. Lets take a look inside the `merge.txt` file to see the conflict:
 
     ```shell
     cat merge.txt
