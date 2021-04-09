@@ -36,9 +36,9 @@ Rebasing is the process of moving or combining a sequence of commits to a new ba
 
 ![image](images/rebase.svg)
 
-`Note:` You should not rebase in public repositories as it will look like some of the history disappear.
+_Note:_ You should not rebase in public repositories as it will look like some of the history disappear.
 
-The most common use of rebase is if you have gotten behind the main branch. Before trying to commit for a PR make sure to `git rebase main --interactive`
+The most common use of rebase is if you have gotten behind the upstream main branch in a remote feature branch. Before trying to commit for a PR make sure to `git rebase main --interactive`
 
 ## Git Log
 
@@ -98,6 +98,7 @@ If you are working on a branch and you want to reset it to the last commit you c
 4. Do a `git reset` to revert back to previous commit, remember this will revert all changes you have made since last commit.
 
    ```shell
+   git reset
    Untracked files:
      (use "git add <file>..." to include in what will be committed)
            reset.txt
@@ -105,15 +106,23 @@ If you are working on a branch and you want to reset it to the last commit you c
 
 5. Now you can perform a `git pull` to get latest upstream changes.
 
+   ```shell
+   git pull
+   Updating ac4d849..6098c98
+   Fast-forward
+   reset.txt        | 10 +++++-----
+   ```
+
 ## Git Diff
 
-Git diff is a way to see what is different between two branches. You can do this on just two files, or the entire branch.
+Git diff is a way to see what is changed between two branches. You can target specific files or the entire branch.
 
-1. Let's create a file called test_diff.txt, commit it and make a change so we can see the differences:
+1. Let's create a file called `test_diff.txt`, commit it and make a change so we can see the differences:
 
    ```shell
    echo "this is a git diff test example" > test_diff.txt
-   git commit -am 'commiting test_diff';git push
+   git commit -am 'commiting test_diff'
+   git push origin main
    echo "test diff example" > test_diff.txt
    ```
 
@@ -145,7 +154,7 @@ Git diff is a way to see what is different between two branches. You can do this
    +++ b/test_diff.txt
    ```
 
-   These lines assign let you know which marker denotes which file ie `-` is for `file a` and `+` is for `file b`.
+   These lines above show which marker denotes which file ie `-` is for `a/test_diff.txt` and `+` is for `b/test_diff.txt`.
 
    Example:
 
@@ -159,7 +168,9 @@ Git diff is a way to see what is different between two branches. You can do this
 
 `Git stash` saves uncommitted changes for later and reverts to last commit so you can switch branches and work on other things.
 
-1. ```git status```
+1. ```shell
+   git stash
+   ```
 
    Output:
 
@@ -191,13 +202,13 @@ Git diff is a way to see what is different between two branches. You can do this
            modified:   workshops/git_101/03-advanced.md
    ```
 
-   `Note:` Stash will not store files that have not been added with `git add`.
+   _Note:_ `git stash` will not store files that have not been added with `git add`.
 
 ## Branching Strategies
 
-There are many different strategies for branching code, however the feature branch strategy has become the standard in Open Source this is also referred to as [Github Flow](https://guides.github.com/introduction/flow/).
+There are many different strategies for branching code, however the feature branch strategy has become the standard in Open Source. This is also referred to as [GitHub Flow](https://guides.github.com/introduction/flow/).
 
-For in depth information on all strategies Martin Fowler has a great blog on it [here.](https://martinfowler.com/articles/branching-patterns.html)
+For in depth information on all strategies, Martin Fowler has a great blog on it [here.](https://martinfowler.com/articles/branching-patterns.html)
 
 ---
 
