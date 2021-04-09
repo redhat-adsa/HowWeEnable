@@ -6,7 +6,7 @@ It is a best practice to have at least one other person review all pull requests
 
 The process to review code is nearly the same with all git services, since we are using github for this training we will show how to do it here.
 
-1. Click the Pull Request tab, then from the Pull Request page, choose the pull request you would like to review.
+1. Click the **Pull Request* tab and then from the **Pull Request** page, choose the pull request you would like to review.
 
    Example:
 
