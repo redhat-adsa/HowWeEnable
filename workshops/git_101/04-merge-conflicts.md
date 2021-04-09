@@ -99,4 +99,4 @@ The new lines that have been added are "conflict dividers". The `=======` line i
 
     ![mergeconflict](images/mergeconflict.png)
 
-    Otherwise you will need to go into the file and manually fix the conflict then do a new commit. Or you can always `git rebase main --interctive`
+Otherwise, you will need to go into the file and manually fix the conflict, then add a new commit. Or, you can always use `git rebase newbranch --interactive`
