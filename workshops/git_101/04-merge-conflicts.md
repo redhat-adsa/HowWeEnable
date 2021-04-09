@@ -93,7 +93,7 @@ Merge conflicts happen when you or someone else edits the same file and tries to
     >>>>>>> newbranch
     ```
 
-    These new lines that have been added are "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line is content that exists in the current branch master which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> new_branch_to_merge_later is content that is present in our merging branch.
+The new lines that have been added are "conflict dividers". The `=======` line is the "center" of the conflict. All of the content between the center and the `<<<<<<< HEAD` line are the content that exists in the current branch `main` which the HEAD ref is pointing to. Alternatively, all content between the center and `>>>>>>> newbranch` is content that is present in our merging branch.
 
 10. So how do I fix this? If you are using n IDE like vscode you cn select accept incoming change like below"
 
