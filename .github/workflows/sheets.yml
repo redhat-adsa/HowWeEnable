@@ -2,10 +2,7 @@ name: github-project-issue-to-sheets
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  workflow_dispatch:
-  issues:
-    types: [opened, deleted, transferred, closed, reopened, assigned, unassigned, labeled, unlabeled]
+on: [push, pull_request, merge]
 
 jobs:
     github-project-issue-to-sheets:
@@ -18,4 +15,4 @@ jobs:
           with:
             google-api-service-account-credentials: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_DATA }}
             document-id: '1hCj7qLV_05n3rKcFi4IKIqqZRFNf5-Ra_N46vwnjOBw'
-            sheet-name: 'GitHub Issues'
+            sheet-name: 'HowWeEnable Updates'
