@@ -16,6 +16,14 @@ If you’re on a Debian-based distribution, such as Ubuntu, use apt:
 sudo apt install git-all
 ```
 
+### Installing on macOS
+
+If using a Mac with OSX, from version 10.9 onward, Git is preinstalled up to Big Sur (Latest OS release at this time) and can be verified by running the following:
+
+```shell
+git --version
+```
+
 For other operating systems, follow latest documentation on [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Create your first project
@@ -30,7 +38,7 @@ git init --initial-branch=main
 
 ## Git Config
 
-The git config command is used to get and set repository or global level options. Let's set some options for the repository you just created so that when you do a push it knows who made the changes. `NOTE:` If this is a shared machine (vscodeserver etc) remove the `--global` and it will only add this to the local repository.
+The git config command is used to get and set repository or global level options. Let's set some options for the repository you just created so that when you do a push it knows who made the changes. `NOTE:` If this is a shared machine ([vscodeserver](https://github.com/cdr/code-server) etc) remove the `--global` and it will only add this to the local repository.
 
 ```shell
 git config --global user.name "john doe"
@@ -75,23 +83,23 @@ Most repositories are disabling username and password as an auth mechanism for s
     cat ~/.ssh/id_rsa.pub
     ```
 
-    `NOTE:` Never share your private key it is the one without the .pub extension.
+    `NOTE:` Never share your private key. It is the one without the `.pub` extension.
 
 2. Add the key to the git server:
 
 [Azure Devops](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops)
 
-[Bitbucket](https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html)
+[Bitbucket](https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html) `NOTE` You can skip xclip and just cat ~/.ssh/id_rsa.pub
 
 [Gitlab](https://docs.gitlab.com/ee/ssh/)
 
-[Github](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) `NOTE` Skip xclip and just cat ~/.ssh/id_rsa.pub
+[Github](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) 
 
 ### Personal Access Tokens
 
-[Bitbucket](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html)
-
 [Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page)
+
+[Bitbucket](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html)
 
 [Gitlab](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 
