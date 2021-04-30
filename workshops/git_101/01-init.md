@@ -93,7 +93,7 @@ Most repositories are disabling username and password as an auth mechanism for s
 
 [Gitlab](https://docs.gitlab.com/ee/ssh/)
 
-[Github](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) 
+[Github](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 
 ### Personal Access Tokens
 
