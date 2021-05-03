@@ -47,18 +47,18 @@ These workshops (in a perfect world) consist of 2 days of intensive training on 
 
 ## Example Workshops
 
-| Example Workshops              | Length    | Link                                    |
+| Example Workshops              | Length    | Link  (Blanks are Work in Progress)     |
 |--------------------------------|-----------|-----------------------------------------|
 | AI/ML on OCP w/ ODH            | 4-5 hours |                                         |
 | Authentication                 | 1-2 hours |                                         |
-| Automation                     |           |                                         |
+| Automation                     | 4-5 hours |                                         |
 | CI/CD                          | 2-3 hours |                                         |
-| Commercial of the shelf on OCP | 2-3 hours | Cots on OCP                             |
+| Commercial of the shelf on OCP | 2-3 hours |                                         |
 | IOT                            | 4-5 hours |                                         |
 | Modern Authentication          | 2-3 hours |                                         |
 | Openshift 101                  | 3-4 hours |                                         |
 | Openshift 102                  | 3-4 hours |                                         |
-| Refactoring Apps               | 3-4 hours |                                         |
+| Refactoring .Net               | 3-4 hours |                                         |
 | Source to Image (s2i)          | 2-3 hours |                                         |
 | Source Code Management         | 1-2 hours | [Git 101](workshops/git_101/01-init.md) |
 

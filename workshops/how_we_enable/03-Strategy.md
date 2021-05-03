@@ -1,4 +1,4 @@
-# Enterprise Architecture Standards Deep Dive into 
+# Enterprise Architecture Standards Deep Dive
 
 ## Source Code Management Strategy
 
