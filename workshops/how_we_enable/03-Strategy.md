@@ -1,12 +1,6 @@
-# High Level Strategy Accelerates Success
+# Enterprise Architecture Standards Deep Dive into 
 
-## Why Strategy Matters
-
-"Formalizing your organization’s approach to open source management and strategy creates guidelines that boost efficiency and minimize risks. Whether or not you have set a business strategy around your open source efforts, you likely already know that this is important." - Linuxfoundation.org
-
-At the highest level having company standards around processes is one of the most important things to address in order to help accelerate the adoption of open source software and tools.
-
-### Source Code Management Strategy
+## Source Code Management Strategy
 
 All modern tools and platforms today start with code. Even if we are infrastructure administrators or deploying applications (COTS or custom) we need to use a single source of truth for storing the code/configurations and making them available for others to collaborate into. The industry standard for everyone is GIT which was created by Linus Torvalds to help manage contributions to the Linux kernel in April of 2005.
 

@@ -14,6 +14,8 @@ Create a framework to enable people on their digital transformation journey usin
 
 At the highest level having company standards around the way IT services are delivered is one of the most important things to address in order to help accelerate the adoption of open source software and tools.
 
+Below are the base Enterprise Architecture Standards that help ease the move to cloud native.
+
 | Enterprise Architecture Standards            |
 |----------------------------------------------|
 | Automation and CI/CD                         |
@@ -27,29 +29,37 @@ At the highest level having company standards around the way IT services are del
 | Testing                                      |
 | User Centered Design / Research              |
 
-We have created an Assessment worksheet to help document where an organization is in this journey here: [Opensource Assessment](workshops/how_we_enable/01-Getting_Started.md)
+For a deeper dive on each of the above standards go here:
+
+ [Standards Deep Dive](workshops/-3=Strategy.md).
+
+## Assessment Worksheet
+
+The first step in this process is to have a good understanding of where an organization is.  We created an Assessment worksheet to help document where an organization is in this journey here:
+
+[Open Source Assessment](workshops/how_we_enable/01-Getting_Started.md)
 
 ## Enablement Workshops
 
-These workshops (preferably) consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
+These workshops (in a perfect world) consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
 
 `Note:` This can be broken down into smaller sessions as it is sometimes difficult to get an entire week. The main goal is to have people apply the new skills they learned as soon as possible to something they are currently working on.
 
-| Enablement Workshop                                                    | Description of Activity                                                                                                                                                                                  |
-|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Logistics](workshops/how_we_enable/02-Logistics.md)                   | What is needed to perform one of these workshops.                                                                                                                                                        |
-| [Strategy Enablement](workshops/how_we_enable/03-Strategy.md)          | Helping enable long term strategy vs quick wins is extremely beneficial to success in a digital transformation. Here we help align to standard strategies to help accelerate modern developer practices. |
-| [Practice Scenarios](workshops/how_we_enable/04-Practice_Scenarios.md) | Help new facilitators work through some scenarios that may come up in the assessment stage                                                                                                               |
-
 ## Example Workshops
 
-| Need                           | Workshop                                |
-|--------------------------------|-----------------------------------------|
-| High level strategies missing  | Strategy Workshop                       |
-| Source Code Management         | [Git 101](workshops/git_101/01-init.md) |
-| Authentication                 | Auth 101                                |
-| Automation                     | Ansible 101                             |
-| Refactor apps                  | Refactor 101                            |
-| Commercial of the shelf on OCP | Cots on OCP                             |
+| Example Workshops              | Length    | Link                                    |
+|--------------------------------|-----------|-----------------------------------------|
+| AI/ML on OCP w/ ODH            | 4-5 hours |                                         |
+| Authentication                 | 1-2 hours |                                         |
+| Automation                     |           |                                         |
+| CI/CD                          | 2-3 hours |                                         |
+| Commercial of the shelf on OCP | 2-3 hours | Cots on OCP                             |
+| IOT                            | 4-5 hours |                                         |
+| Modern Authentication          | 2-3 hours |                                         |
+| Openshift 101                  | 3-4 hours |                                         |
+| Openshift 102                  | 3-4 hours |                                         |
+| Refactoring Apps               | 3-4 hours |                                         |
+| Source to Image (s2i)          | 2-3 hours |                                         |
+| Source Code Management         | 1-2 hours | [Git 101](workshops/git_101/01-init.md) |
 
 [![Lint Code Base](https://github.com/chadhellyea/HowWeEnable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/chadhellyea/HowWeEnable/actions)
