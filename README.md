@@ -18,11 +18,10 @@ Below are the base Enterprise Architecture Standards that help ease the move to 
 
 | Enterprise Architecture Standards            |
 |----------------------------------------------|
-| Automation and CI/CD                         |
+| APIs                                         |
+| Automation                                   |
 | Cloud Native Development                     |
-| Collaboration & Tools for Collaboration      |
 | Continuous Integration / Continuous Delivery |
-| Messaging / APIs                             |
 | Monitoring / Observability                   |
 | Source Code Management                       |
 | Security                                     |
@@ -39,17 +38,19 @@ The first step in this process is to have a good understanding of where an organ
 
 [Open Source Assessment](workshops/how_we_enable/01-Getting_Started.md)
 
-## Enablement Workshops
+## Enablement Workshops/Hackathons
 
 These workshops (in a perfect world) consist of 2 days of intensive training on a technology followed by 3 days of applying what was learned to a real business problem.
 
 `Note:` This can be broken down into smaller sessions as it is sometimes difficult to get an entire week. The main goal is to have people apply the new skills they learned as soon as possible to something they are currently working on.
 
-## Example Workshops
+### Logistics
+
+## Workshops (Work in Progress)
 
 | Example Workshops              | Length    | Link  (Blanks are Work in Progress)     |
 |--------------------------------|-----------|-----------------------------------------|
-| AI/ML on OCP w/ ODH            | 4-5 hours |                                         |
+| AI/ML w/ RH Open Data Science  | 4-5 hours |                                         |
 | Authentication                 | 1-2 hours |                                         |
 | Automation                     | 4-5 hours |                                         |
 | CI/CD                          | 2-3 hours |                                         |

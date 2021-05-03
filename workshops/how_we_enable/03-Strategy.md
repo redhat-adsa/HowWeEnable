@@ -1,5 +1,37 @@
 # Enterprise Architecture Standards Deep Dive
 
+## APIs
+
+Application Programming Interfaces are the defacto standard for how applications talk to each other. Making these be secure, reusable and cataloging them so they are accessible to your customers is a standard practice for digital transformation.
+
+_Note:_ "Customers" can be internal or external customers.
+
+## Automation
+
+"Covid-19 has made automation a boardroom imperative.” - Forrester Research 2020
+Automating all services and making them consumable via APIs is the standard way of doing this in today's IT. Most people start with a command line tool, and build it into a pipeline or pass around cookbooks or playbooks, which is a great way to start, however someone needs to know where these are. A common practice is using a centralized tool like Ansible Tower to make all of these playbooks self service by exposing them as APIs.
+
+## Cloud Native Development
+
+All new application development should follow Cloud Native Standards:
+
+| Standard                | Description                                                      |
+|-------------------------|------------------------------------------------------------------|
+| **Codebase**            | One codebase tracked in revision control, many deploys           |
+| **Dependencies**        | Explicitly declare and isolate dependencies                      |
+| **Config**              | Store config in the environment                                  |
+| **Backing services**    | Treat backing services as attached resources                     |
+| **Build, release, run** | Strictly separate build and run stages                           |
+| **Processes**           | Execute the app as one or more stateless processes               |
+| **Port binding**        | Export services via port binding                                 |
+| **Concurrency**         | Scale out via the process model                                  |
+| **Disposability**       | Maximize robustness with fast startup and graceful shutdown      |
+| **Dev/prod parity**     | Keep development, staging, and production as similar as possible |
+| **Logs**                | Treat logs as event streams                                      |
+| **Admin processes**     | Run admin/management tasks as one-off processes                  |
+
+_Source:_ [12factor.net](https://www.12factor.net)
+
 ## Source Code Management Strategy
 
 All modern tools and platforms today start with code. Even if we are infrastructure administrators or deploying applications (COTS or custom) we need to use a single source of truth for storing the code/configurations and making them available for others to collaborate into. The industry standard for everyone is GIT which was created by Linus Torvalds to help manage contributions to the Linux kernel in April of 2005.

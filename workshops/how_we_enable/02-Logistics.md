@@ -10,19 +10,7 @@ Customers will often have security policies on their employees laptops that make
 
 ## How We Deliver the Workshops
 
-Usually we like to have an entire week, however we realize this is a big ask. You can break it into a half day of learning a skill and the other half applying it to a real scenario the students are working in their day to day.
-
-| Example Workshops      | Length    |
-|------------------------|-----------|
-| Source Code Management | 2-3 hours |
-| CI/CD                  | 2-3 hours |
-| Modern Authentication  | 2-3 hours |
-| Source to Image (s2i)  | 2-3 hours |
-| Openshift 101          | 3-4 hours |
-| Openshift 102          | 3-4 hours |
-| Refactoring Apps       | 3-4 hours |
-| AI/ML on OCP w/ ODH    | 4-5 hours |
-| IOT                    | 4-5 hours |
+Usually we like to have an entire week, however we realize this is a big ask. You can break it into a half day of learning a skill and the other half applying it to a real business need that the students are working in their day to day.
 
 ## Hackathon Scoping
 
@@ -30,7 +18,3 @@ Before the event it is best to get people to submit ideas for things they would 
 
 Example:
 Customer has a ASP.net application that uses tls and kerberos authentication. We would need to make sure they have the ability to request dns changes, certs from a PKI and set up auth or a kerberos sidecar.
-
----
-
-[Next Strategy](03-Strategy.md)
