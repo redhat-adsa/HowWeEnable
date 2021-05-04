@@ -16,21 +16,21 @@ At the highest level having company standards around the way IT services are del
 
 Below are the base Enterprise Architecture Standards that help ease the move to cloud native.
 
-| Enterprise Architecture Standards            |
-|----------------------------------------------|
-| APIs                                         |
-| Automation                                   |
-| Cloud Native Development                     |
-| Continuous Integration / Continuous Delivery |
-| Monitoring / Observability                   |
-| Source Code Management                       |
-| Security                                     |
-| Testing                                      |
-| User Centered Design / Research              |
+| Enterprise Architecture Standards                   |
+|-----------------------------------------------------|
+| [APIs](workshops/how-we-enable/03-Strategy.md#APIs) |
+| Automation                                          |
+| Cloud Native Development                            |
+| Continuous Integration / Continuous Delivery        |
+| Monitoring / Observability                          |
+| Source Code Management                              |
+| Security                                            |
+| Testing                                             |
+| User Centered Design / Research                     |
 
 For a deeper dive on each of the above standards go here:
 
- [Standards Deep Dive](workshops/-3=Strategy.md).
+ [Standards Deep Dive](workshops/how_we_enable/03-Strategy.md).
 
 ## Assessment Worksheet
 
