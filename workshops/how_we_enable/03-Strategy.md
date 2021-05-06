@@ -38,7 +38,7 @@ Continuous integration and continuous delivery/deployment is the defacto standar
 
 ## Monitoring/Observability
 
-Much like CI/CD having consistent cross functional standards for logging (preferably as streams) monitoring, tracing and utilization is a best practice to have.
+Much like CI/CD, having consistent cross functional standards for logging (preferably as streams) monitoring, tracing and utilization is a best practice to have.
 
 ## Security
 
