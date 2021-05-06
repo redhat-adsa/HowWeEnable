@@ -6,7 +6,7 @@ Enabling large organizations to use technologies to their fullest potential is m
 
 ## Objective
 
-Create a framework to enable people on their digital transformation journey using discovery sessions that we will outline in this repository as well as provide enablement workshops to help move them forward and create communities of practice within their organizations. In addition to this we hope to enable other repositories start including a workshop folder that walks people through how to run workshops so that others can use them as part of their enablement going forward.
+Create a framework to enable individuals on their digital transformation journey using discovery sessions that we will outline in this repository as well as provide enablement workshops to help move them forward and create communities of practice within their organizations. In addition to this, we hope to enable other repositories start including a workshop folder that walks people through how to run workshops so that others can use them as part of their enablement going forward.
 
 ## Why Strategy Matters
 
