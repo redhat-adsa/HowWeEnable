@@ -9,7 +9,7 @@ _Note:_ "Customers" can be internal or external customers.
 ## Automation
 
 "Covid-19 has made automation a boardroom imperative.” - Forrester Research 2020
-Automating all services and making them consumable via APIs is the standard way of doing this in today's IT. Most people start with a command line tool, and build it into a pipeline or pass around cookbooks or playbooks, which is a great way to start, however someone needs to know where these are. A common practice is using a centralized tool like Ansible Tower to make all of these playbooks self service by exposing them as APIs.
+Automating all services and making them consumable via APIs is the standard way of doing this in today's IT. Most people start with a command line tool, and build it into a pipeline or pass around cookbooks or playbooks, which is a great way to start, however someone needs to know where these are. A common practice is using a centralized tool like [Ansible Tower](https://www.ansible.com/products/tower) to make all of these playbooks self service by exposing them as APIs.
 
 ## Cloud Native Development
 
