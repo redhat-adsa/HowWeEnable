@@ -10,7 +10,7 @@ Customers will often have security policies on their employees laptops that make
 
 ## How We Deliver the Workshops
 
-Usually, we like to have an entire week. However, we realize this is a big ask. You can break it into a half day of learning a skill and the other half applying it to a real business need that the students are working in their day to day.
+Perfect scenario we like to have an entire week to deliver a fully immersive workshop and hackathon. You can break these into smaller 1 day events with the first half of the day learning a skill in the workshop. Then during the second half of the day apply what was leaned to a real business need that the students are working in their day to day. This helps to quickly solidify the skill and get people excited about what they learned when they see immediate results.
 
 ## Hackathon Scoping
 
