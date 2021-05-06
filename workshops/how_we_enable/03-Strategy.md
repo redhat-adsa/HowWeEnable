@@ -57,6 +57,6 @@ Branching patterns are a religious discussion to some, however there is an excel
 
 ## Testing and Test Driven Development
 
-When you build your applications around tests and mocking you ensure that any changes to the application will be validated and ensures that future enhancements you do not break the application in the future.  One of the best guides on this is here:
+When you build your applications around tests and mocking, you ensure that any changes to the application will be validated and ensures that future enhancements you do not break the application in the future.  One of the best guides on this is here:
 
 [Thoughtworks TDD Blog](https://www.thoughtworks.com/insights/blog/test-driven-development-best-thing-has-happened-software-design)
