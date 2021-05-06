@@ -42,8 +42,7 @@ Much like CI/CD, having consistent cross functional standards for logging (prefe
 
 ## Security
 
-Security can be made easier for developers when you solidify a standard for them to use and implement into their CI/CD pipelines. This includes but is not limited to the implementation of static code analysis as well as running code analysis tools. It is also a best practice to use a trusted source for libraries that is regularly scanned (ie not pulling libraries directly from the internet pypi, npm etc).
-.
+Security can be made easier for developers when you solidify a standard for them to use and implement into their CI/CD pipelines. This includes but is not limited to the implementation of static code analysis as well as running code analysis tools. It is also a best practice to use a trusted source for libraries that is regularly scanned (ie not pulling libraries directly from the internet, [pypi](pypi.org), [npm](npmjs.com), [nuget](https://www.nuget.org/) etc).
 
 ## Source Code Management Strategy
 
