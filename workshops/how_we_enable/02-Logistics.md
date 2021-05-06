@@ -10,7 +10,7 @@ Customers will often have security policies on their employees laptops that make
 
 ## How We Deliver the Workshops
 
-Usually we like to have an entire week, however we realize this is a big ask. You can break it into a half day of learning a skill and the other half applying it to a real business need that the students are working in their day to day.
+Usually, we like to have an entire week. However, we realize this is a big ask. You can break it into a half day of learning a skill and the other half applying it to a real business need that the students are working in their day to day.
 
 ## Hackathon Scoping
 
