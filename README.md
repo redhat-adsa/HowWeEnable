@@ -12,7 +12,7 @@ Create a framework to enable individuals on their digital transformation journey
 
 "Formalizing your organization’s approach to open source management and strategy creates guidelines that boost efficiency and minimize risks. Whether or not you have set a business strategy around your open source efforts, you likely already know that this is important." - Linuxfoundation.org
 
-At the highest level having company standards around the way IT services are delivered is one of the most important things to address in order to help accelerate the adoption of open source software and tools.
+At the highest level, having company standards around the way IT services are delivered is one of the most important things to address in order to help accelerate the adoption of open source software and tools.
 
 Below are the base Enterprise Architecture Standards that help ease the move to cloud native.
 
