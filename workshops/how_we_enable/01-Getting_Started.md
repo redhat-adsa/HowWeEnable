@@ -48,7 +48,3 @@ The first thing we need to do before anything else is a full assessment of tools
 | Code Analysis      |                                                             |
 | Container Security |                                                             |
 | Secrets Management |                                                             |
-
----
-
-[Next Logistics](02-Logistics.md)
