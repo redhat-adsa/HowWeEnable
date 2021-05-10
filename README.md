@@ -18,7 +18,7 @@ Below are the base Enterprise Architecture Standards that help ease the move to 
 
 | Enterprise Architecture Standards                   |
 |-----------------------------------------------------|
-| [APIs](workshops/how-we-enable/03-Strategy.md#APIs) |
+| APIs                                                |
 | Automation                                          |
 | Cloud Native Development                            |
 | Continuous Integration / Continuous Delivery        |
