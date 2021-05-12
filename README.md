@@ -46,6 +46,8 @@ These workshops (in a perfect world) consist of 2 days of intensive training on 
 
 ### Logistics
 
+[Logistics Guide](workshops/how_we_enable/02-Logistics.md)
+
 ## Workshops (Work in Progress)
 
 | Example Workshops              | Length    | Link  (Blanks are Work in Progress)     |
