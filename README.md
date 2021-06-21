@@ -6,7 +6,7 @@ Enabling large organizations to use technologies to their fullest potential is m
 
 ## Objective
 
-Create a framework to enable individuals on their digital transformation journey using discovery sessions that we will outline in this repository as well as provide enablement workshops to help move them forward and create communities of practice within their organizations. In addition to this, we hope to enable other repositories start including a workshop folder that walks people through how to run workshops so that others can use them as part of their enablement going forward.
+The objective of this repository is to create a framework to enable individuals to have a strategy to get to modern methodologies for deployment of IT services. We hope to provide best practices as well as enablement workshops to help move the strategies forward and create communities of practice within organizations. In addition to this, we hope to create a culture of learning and encourage other repositories start including a workshop folder. This way people have an entry point on how to run workshops to enable others in the future.
 
 ## Why Strategy Matters
 
@@ -16,17 +16,17 @@ At the highest level, having company standards around the way IT services are de
 
 Below are the base Enterprise Architecture Standards that help ease the move to cloud native.
 
-| Enterprise Architecture Standards                   |
-|-----------------------------------------------------|
-| [APIs](workshops/how-we-enable/03-Strategy.md#APIs) |
-| Automation                                          |
-| Cloud Native Development                            |
-| Continuous Integration / Continuous Delivery        |
-| Monitoring / Observability                          |
-| Source Code Management                              |
-| Security                                            |
-| Testing                                             |
-| User Centered Design / Research                     |
+| [Enterprise Architecture Standards](workshops/how_we_enable/03-Strategy.md) |
+|-----------------------------------------------------------------------------|
+| APIs                                                                        |
+| Automation                                                                  |
+| Cloud Native Development                                                    |
+| Continuous Integration / Continuous Delivery                                |
+| Monitoring / Observability                                                  |
+| Source Code Management                                                      |
+| Security                                                                    |
+| Testing                                                                     |
+| User Centered Design / Research                                             |
 
 For a deeper dive on each of the above standards go here:
 
@@ -46,21 +46,24 @@ These workshops (in a perfect world) consist of 2 days of intensive training on 
 
 ### Logistics
 
-## Workshops (Work in Progress)
+## Workshops and Self Learning Links (Work in Progress)
 
-| Example Workshops              | Length    | Link  (Blanks are Work in Progress)     |
-|--------------------------------|-----------|-----------------------------------------|
-| AI/ML w/ RH Open Data Science  | 4-5 hours |                                         |
-| Authentication                 | 1-2 hours |                                         |
-| Automation                     | 4-5 hours |                                         |
-| CI/CD                          | 2-3 hours |                                         |
-| Commercial of the shelf on OCP | 2-3 hours |                                         |
-| IOT                            | 4-5 hours |                                         |
-| Modern Authentication          | 2-3 hours |                                         |
-| Openshift 101                  | 3-4 hours |                                         |
-| Openshift 102                  | 3-4 hours |                                         |
-| Refactoring .Net               | 3-4 hours |                                         |
-| Source to Image (s2i)          | 2-3 hours |                                         |
-| Source Code Management         | 1-2 hours | [Git 101](workshops/git_101/01-init.md) |
+| Example Workshops              | Length    | Link  (Blanks are Work in Progress)                                                                    |
+|--------------------------------|-----------|--------------------------------------------------------------------------------------------------------|
+| AI/ML w/ RH Open Data Science  | 4-5 hours |                                                                                                        |
+| APIs                           | 2-3 hours | [Day in the Life Integration](https://github.com/RedHat-Middleware-Workshops/dayinthelife-integration) |
+| Authentication                 | 1-2 hours |                                                                                                        |
+| Automation                     | 4-5 hours |                                                                                                        |
+| CI/CD                          | 2-3 hours |                                                                                                        |
+| Commercial of the shelf on OCP | 2-3 hours |                                                                                                        |
+| IOT                            | 4-5 hours |                                                                                                        |
+| Kubernetes                     | 2-3 hours | [Kubernetes by Example](https://www.kubernetesbyexample.com/concept/pods)
+| Modern Authentication          | 2-3 hours |                                                                                                        |
+| Openshift 101                  | 3-4 hours |                                                                                                        |
+| Openshift 102                  | 3-4 hours |                                                                                                        |
+| Refactoring .Net               | 3-4 hours | [Modernize .Net](https://github.com/redhat-adsa/workshop-modernize-dotnet)                             |
+| Source to Image (s2i)          | 2-3 hours |                                                                                                        |
+| Source Code Management         | 1-2 hours | [Git 101](workshops/git_101/01-init.md)                                                                |
+| Tekton Pipelines               | 2-3 hours | [Tekton Pipelines Lab](https://github.com/openshift-labs/lab-tekton-pipelines/blob/master/README.md)   |
 
 [![Lint Code Base](https://github.com/chadhellyea/HowWeEnable/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/chadhellyea/HowWeEnable/actions)
