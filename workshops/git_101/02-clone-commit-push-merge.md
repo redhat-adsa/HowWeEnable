@@ -61,7 +61,7 @@ tree
 
 ## Branching
 
-It is a best practice to not commit code directly to the main (legacy master) branch. In order to void this we create a feature branch to work from with the `git branch` or `git checkout` command.
+It is a best practice to not commit code directly to the main (legacy master) branch. In order to void this we create a feature branch to work from with the `git branch` or `git checkout` command. There is a fantastic interactive training for branching at: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
 To create a branch and check it out (ie move to it as your working branch) you can do this with a single command `git checkout -b <branch-name>`.
 
