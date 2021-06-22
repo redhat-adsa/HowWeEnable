@@ -28,9 +28,7 @@ Below are the base Enterprise Architecture Standards that help ease the move to 
 | Testing                                                                     |
 | User Centered Design / Research                                             |
 
-For a deeper dive on each of the above standards go here:
-
- [Standards Deep Dive](workshops/how_we_enable/03-Strategy.md).
+For a deeper dive on each of the above standards go here [Standards Deep Dive](workshops/how_we_enable/03-Strategy.md).
 
 ## Assessment Worksheet
 
