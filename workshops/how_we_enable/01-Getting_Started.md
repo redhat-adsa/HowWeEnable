@@ -24,7 +24,6 @@ Rate organization's skill maturity on a scale of 1-5:
 
 > _+ see [Westrum Organizational Culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)_
 
-
 | Architecture           | Details (Get specifics and link to possible workshop ideas) |
 |------------------------|-------------------------------------------------------------|
 | API Standards          |                                                             |
