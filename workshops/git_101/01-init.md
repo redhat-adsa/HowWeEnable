@@ -2,9 +2,9 @@
 
 ## Introduction to Git Presentation
 
-[PDF](into_to_Git_slides.pdf)
+[PDF version of presentation](into_to_Git_slides.pdf)
 
-[ODP](into_to_Git_slides.odp)
+[ODP slides of presentation](into_to_Git_slides.odp)
 
 ## Install GIT
 
