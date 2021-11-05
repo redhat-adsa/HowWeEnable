@@ -1,5 +1,10 @@
 # Getting Started with GIT
 
+## Introduction to Git Presentation
+
+[PDF](into_to_Git_slides.pdf)
+[ODP](into_to_Git_slides.odp)
+
 ## Install GIT
 
 ### Installing on Linux
