@@ -42,6 +42,15 @@ cd project-name
 git init --initial-branch=main
 ```
 
+*NOTE:* git init --initial-branch command was added in git 2.28. If you have an older version you will need to create the main branch and then set the global default to main in next step.
+
+## Set main as global default
+
+Extra credit so you don't have to set initial branch every time you create a new repository.
+
+```shell
+git config --global init.defaultBranch main
+```
 ## Git Config
 
 The git config command is used to get and set repository or global level options. Let's set some options for the repository you just created so that when you do a push it knows who made the changes. `NOTE:` If this is a shared machine ([vscodeserver](https://github.com/cdr/code-server) etc) remove the `--global` and it will only add this to the local repository.
@@ -49,14 +58,6 @@ The git config command is used to get and set repository or global level options
 ```shell
 git config --global user.name "john doe"
 git config --global user.email "john.doe@example.com"
-```
-
-### Set main as global default
-
-Extra credit so you don't have to set initial branch every time you create a new repository.
-
-```shell
-git config --global init.defaultBranch main
 ```
 
 ### Show all settings
